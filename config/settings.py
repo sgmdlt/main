@@ -17,7 +17,7 @@ logging.basicConfig(
     style='{',
 )
 
-SECRET_KEY = misc.getenv('SECRET_KEY')
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = os.getenv('DEBUG', 'true').lower() in {'yes', '1', 'true'}
 
