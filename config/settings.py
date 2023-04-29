@@ -19,7 +19,8 @@ logging.basicConfig(
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
-DEBUG = os.getenv('DEBUG', 'true').lower() in {'yes', '1', 'true'}
+DEBUG = os.getenv("DEBUG", "true").lower() in {"true", "1", "yes"}
+print('DEBUG = ', DEBUG)
 
 if not DEBUG:
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')

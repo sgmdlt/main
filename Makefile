@@ -1,5 +1,5 @@
 install: .env
-	poetry install --extras psycopg2-binary
+	poetry install
 
 docker-install: .env
 	docker-compose build
