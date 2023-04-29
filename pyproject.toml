@@ -22,11 +22,11 @@ cryptography = "^39.0.1"
 crispy-bootstrap5 = "^0.6"
 django-extensions = "^3.2.1"
 psycopg2-binary = "^2.9.6"
+django-debug-toolbar = "^3.8.1"
 
 [tool.poetry.group.dev.dependencies]
 Faker = "^13.15.1"
 coverage = "^6.4.2"
-django-debug-toolbar = "^3.8.1"
 ruff = "^0.0.263"
 
 [build-system]

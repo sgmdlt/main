@@ -438,7 +438,7 @@ files = [
 name = "django-debug-toolbar"
 version = "3.8.1"
 description = "A configurable set of panels that display various debug information about the current request/response."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
@@ -835,4 +835,4 @@ brotli = ["Brotli"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "139254a9a04eab12d8e27c76fbf51d2dc7c1149533d3bc861afe6643e703efee"
+content-hash = "28ef31d2a7fcdc92e809f4a0ff26a1f976854f73c32d29aae656288eb8e89277"
