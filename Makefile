@@ -1,5 +1,5 @@
 install: .env
-	poetry install --extras psycopg2-binary
+	poetry install
 
 docker-install: .env
 	docker-compose build
@@ -29,7 +29,7 @@ collectstatic:
 	poetry run python manage.py collectstatic --no-input
 
 lint:
-	poetry run flake8
+	poetry run ruff check .
 
 test:
 	poetry run coverage run --source='.' manage.py test
