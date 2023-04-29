@@ -32,6 +32,7 @@ ALLOWED_HOSTS = [
     '[::1]',
     '.herokuapp.com',
     '.hexlet.io',
+    '.railway.app',
 ]
 
 INSTALLED_APPS = [
